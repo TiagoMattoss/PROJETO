@@ -9,12 +9,10 @@ function numeroRandomico(){
 }
 
 function quandoClicar(){
-
     var cor 
-
+    
     if(input.value){
-
-        cor= input.value
+          cor= input.value
     }else{
         var randomico=numeroRandomico()
         cor= listaCores[randomico]
